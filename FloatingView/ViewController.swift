@@ -18,13 +18,13 @@ class ViewController: UIViewController, FloatingPlayerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        let audio = Audio(url: Bundle.main.url(forResource: "audio", withExtension: "mp3")!,
-//                          title: "Lorem Ipsum",
-//                          subtitle: "dolor sit amet",
-//                          stream: false)
-//
-//        let player = FloatingPlayer()
-//        player.config(queue: [audio], delegate: self)
+        let audio = Audio(url: Bundle.main.url(forResource: "audio", withExtension: "mp3")!,
+                          title: "Lorem Ipsum",
+                          subtitle: "dolor sit amet",
+                          stream: false)
+
+        let player = FloatingPlayer()
+        player.config(queue: [audio], delegate: self)
     }
 
     //-----------------------------------------------------------------------

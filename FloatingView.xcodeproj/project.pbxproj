@@ -17,7 +17,6 @@
 		16A95E3323C16327005A5621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A95E3123C16327005A5621 /* LaunchScreen.storyboard */; };
 		16A95E3B23C16935005A5621 /* FloatingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A95E3A23C16935005A5621 /* FloatingPlayer.swift */; };
 		16A95E3D23C16E21005A5621 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16A95E3C23C16E21005A5621 /* audio.mp3 */; };
-		16EB68C024590E8C005549EC /* FloatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EB68BF24590E8C005549EC /* FloatingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		16A95E3423C16327005A5621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16A95E3A23C16935005A5621 /* FloatingPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPlayer.swift; sourceTree = "<group>"; };
 		16A95E3C23C16E21005A5621 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
-		16EB68BF24590E8C005549EC /* FloatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +48,7 @@
 		1633227D242143E0007ECAB1 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				16A95E3C23C16E21005A5621 /* audio.mp3 */,
 				16A95E3423C16327005A5621 /* Info.plist */,
 				16A95E2F23C16327005A5621 /* Assets.xcassets */,
 				16A95E2823C16326005A5621 /* AppDelegate.swift */,
@@ -107,9 +106,7 @@
 			children = (
 				1633227D242143E0007ECAB1 /* Application */,
 				1633228024215035007ECAB1 /* FloatingPlayer */,
-				16A95E3C23C16E21005A5621 /* audio.mp3 */,
 				16A95E2A23C16326005A5621 /* ViewController.swift */,
-				16EB68BF24590E8C005549EC /* FloatingViewController.swift */,
 			);
 			path = FloatingView;
 			sourceTree = "<group>";
@@ -188,7 +185,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1633227C24214345007ECAB1 /* Audio.swift in Sources */,
-				16EB68C024590E8C005549EC /* FloatingViewController.swift in Sources */,
 				1633227F24214FE8007ECAB1 /* FloatingPlayerView.swift in Sources */,
 				16A95E2B23C16326005A5621 /* ViewController.swift in Sources */,
 				16A95E2923C16326005A5621 /* AppDelegate.swift in Sources */,
@@ -339,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G88K2N9TE;
 				INFOPLIST_FILE = FloatingView/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -357,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G88K2N9TE;
 				INFOPLIST_FILE = FloatingView/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
